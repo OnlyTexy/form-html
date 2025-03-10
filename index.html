@@ -3,81 +3,140 @@
 <head>
 		
 		
-	<meta name = "author" content="mamah aku takut">
-	<title>Form HTMl</title>
+	<meta name = "author" content="nobody">
+	<title>Form Pendaftaran</title>
 </head>
 <body>
+<h1>Form Pendaftaran </h1>
 	<form method="" action="">
+	<table>
+	<tr>
+	<td>
 	<fieldset>
 	<legend>Data Pribadi</legend>
 	<table>
 	<tr>
 	<th><label for="">Nama</label></th>
-	<td><input type="text" name="Nama" autofocus placeholder="Nama lengkap ya azril"></td>
-	</tr>
-	<tr>
-	<th><label for="">Nim</label></th>
-	<td><input type="number" name="nim" value="123456" readonly></td>
+	<td><input type="text" name="Nama" autofocus placeholder="Nama lengkap "></td>
 	</tr>
 	<tr>
 	<th><label for="">Email</label></th>
 	<td><input type="Email" name = "Email"></td>
 	</tr>
 	<tr>
-	<th><label for="">Jenis Kelamin</label></th>
-	<td><input type="radio" name="jk">Laki-Laki
-		<input type="radio" name="jk">Perempuan
-		<input type="radio" name="jk">Jomox
+	<th><label for="">Nomor Telepon</label></th>
+	<td><input type="number" name="no telpon" ></td>
+	</tr>
+	<tr>
+	<th><label for="">Alamat Lengkap</label></th>
+	<td><textarea name="alamat" cols="30" rows="8"></textarea>
 	</td>
 	</tr>
 	<tr>
 	<th><label for="">Tanggal lahir</label></th>
 	<td><input type="date" name="tgl_lahir"></td>
 	</tr>
-	<tr>
-	<th><label for="">Hobby</label></th>
-	<td><input type="checkbox" name="hobby">membaca
-		<input type="checkbox" name="hobby">menulis
-		<input type="checkbox" name="hobby">main rodok-rodokan
+	<th><label for="">Jenis Kelamin</label></th>
+	<td><input type="radio" name="jk">Laki-Laki
+		<input type="radio" name="jk">Perempuan
+	</td>
+		<tr>
+	<th><label for="">Agama</label></th>
+	<td><select name="agama" >
+	<option value="pilih agama">Pilih Agama</option>
+	    <option value="Islam">Islam</option>
+		<option value="Kristen">Kristen</option>
+		<option value="Protestan">Protestan</option>
+		<option value="hindu">Hindu</option>
+		<option value="konghucu">Konghucu</option>
+		<option value="Budha">Budha</option>
+		<option value="Katolik">Katolik</option>
 	</td>
 	</tr>
 	<tr>
-	<th><label for="">password</label></th>
-	<td><input type="password" name="password">
+	<th><label for="">Pendidikan Terakhir</label></th>
+	<td><input type="checkbox" name="Pendidikan">SMA
+		<input type="checkbox" name="Pendidikan">D3
+		<input type="checkbox" name="Pendidikan">S1
 	</td>
-	</tr><tr>
+	</tr>
+	<tr>
 	<th><label for="">Foto</label></th>
-	<td><input type="file" name="foto">
+	<td><input type="file" name="foto" accept="image/jpg" id="foto">
 	</td>
 	</tr>
 	<tr>
-	<th><label for="">Warna kesukaan</label></th>
-	<td><input type="color" name="warna">
+	<th><label for="">CV</label></th>
+	<td><input type="file" name="CV" accept="pdf" id="CV">
 	</td>
 	</tr>
+	
+	
+	
+	
+	
+	
+	
+	</table>
+	</fieldset>
+	</td>
+	
+	
+	
+	<td>
+	<fieldset>
+	<legend>Data Orang Tua</legend>
+	<table>
+	<tr>
+	<th><label for="">Nama Ayah</label></th>
+	<td><input type="text" name="Nama" autofocus placeholder="Nama lengkap "></td>
 	</tr>
 	<tr>
-	<th><label for="">Alamat</label></th>
+	<th><label for="">Pekerjaan</label></th>
+	<td><input type="text" name = "pekerjaan"></td>
+	</tr>
+	<tr>
+	<th><label for="">Alamat Ayah</label></th>
 	<td><textarea name="alamat" cols="30" rows="5"></textarea>
 	</td>
 	</tr>
 	<tr>
-	<th><label for="">Kota</label></th>
-	<td><select name="Kota" >
-	    <option value="Padang">Padang</option>
-		<option value="Jomoxkerto">Jomoxkerto</option>
-		<option value="ngawi">Ngawi</option>
+	<th><label for="">Nomor Telepon Ayah</label></th>
+	<td><input type="number" name="no telpon" ></td>
+	</tr>
+	<tr>
+	<th><label for="">Nama Ibu</label></th>
+	<td><input type="text" name="Nama" autofocus placeholder="Nama lengkap "></td>
+	</tr>
+	<tr>
+	<th><label for="">Pekerjaan Ibu</label></th>
+	<td><input type="text" name = "pekerjaan"></td>
+	</tr>
+	<tr>
+	<th><label for="">Alamat Ibu</label></th>
+	<td><textarea name="alamat" cols="30" rows="5"></textarea>
 	</td>
 	</tr>
 	<tr>
-	<td colspan ="2" align="center"><input type ="Submit"> </td>
+	<th><label for="">Nomor Telepon Ibu</label></th>
+	<td><input type="number" name="no telpon" ></td>
+	</tr>
+	
+	<tr>
+	<td colspan ="2" align="center">
+	<input type ="Submit" value="Simpan">
+	<input type ="reset" value="Reset">	
+	</td>
+	</tr>
+	
+	</fieldset>
+
+	
+	</td>
 	</tr>
 	</table>
-	</fieldset>
-		
 	
 	</form>
 
 </body>
 </html>
-	
