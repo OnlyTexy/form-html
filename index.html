@@ -5,9 +5,53 @@
 		
 	<meta name = "author" content="nobody">
 	<title>Form Pendaftaran</title>
+	<style>
+		body{
+		 background-image:url("https://www.blackxperience.com/assets/content/blackattitude/blackstyle/breaking-bad.jpg");
+		 background-size:cover;
+		}
+		h1{
+			color:blue;
+		}
+		.h1-merah{
+			color:red;
+		}
+		textarea,select,input[type="text"],[type="Email"],[type="date"],[type="file"]{
+		border-radius: 9px;
+		background-color:gray;
+		color:black;
+		padding:9px;
+		width:90%;
+		border-color:black;
+		
+		
+		
+		}
+		*{
+		color:black;
+		font-family:italic bold;
+		}
+		.button{
+		background-color:lightblue;
+		padding:5px;
+		font-weight:bold;
+		border-radius:5px;
+		border-color:white;}
+		.button:hover{
+		background-color:red;
+		padding:5px;
+		font-weight:bold;
+		border-radius:5px;
+		border-color:red;}
+		table{
+		background-color:white;
+		opacity:79%;
+	</style>
+	
 </head>
 <body>
 <h1>Form Pendaftaran </h1>
+<h1 class="h1-merah">Data Mahasiswa</h1>
 	<form method="" action="">
 	<table>
 	<tr>
@@ -29,7 +73,7 @@
 	</tr>
 	<tr>
 	<th><label for="">Alamat Lengkap</label></th>
-	<td><textarea name="alamat" cols="30" rows="8"></textarea>
+	<td><textarea name="alamat" cols="30" rows="6"></textarea>
 	</td>
 	</tr>
 	<tr>
@@ -97,7 +141,7 @@
 	</tr>
 	<tr>
 	<th><label for="">Alamat Ayah</label></th>
-	<td><textarea name="alamat" cols="30" rows="5"></textarea>
+	<td><textarea name="alamat" cols="30" rows="4"></textarea>
 	</td>
 	</tr>
 	<tr>
@@ -124,8 +168,8 @@
 	
 	<tr>
 	<td colspan ="2" align="center">
-	<input type ="Submit" value="Simpan">
-	<input type ="reset" value="Reset">	
+	<input class ="button" type ="Submit" value="Simpan">
+	<input class ="button" type ="reset" value="Reset">	
 	</td>
 	</tr>
 	
